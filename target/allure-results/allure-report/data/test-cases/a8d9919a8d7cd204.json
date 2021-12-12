@@ -1,0 +1,107 @@
+{
+  "uid" : "a8d9919a8d7cd204",
+  "name" : "Check creating new courier without login or password or first name",
+  "fullName" : "praktikum.courier.CourierCreateRequestValidationTest.invalidRequestIsNotAllowedWithLoginOnly[2]",
+  "historyId" : "661d8785d1e84527cb00dfb04d04d773",
+  "time" : {
+    "start" : 1639273414920,
+    "stop" : 1639273415068,
+    "duration" : 148
+  },
+  "description" : "Creating new courier with only login, with only password, with login and password without first name",
+  "descriptionHtml" : "<p>Creating new courier with only login, with only password, with login and password without first name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Creating new courier with only login, with only password, with login and password without first name",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "create",
+      "time" : {
+        "start" : 1639273414920,
+        "stop" : 1639273415006,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "praktikum.data.Courier@5cb6b81b"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "delete",
+      "time" : {
+        "start" : 1639273415006,
+        "stop" : 1639273415068,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courierId",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.courier"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.courier.CourierCreateRequestValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidRequestIsNotAllowedWithLoginOnly[2]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.courier.CourierCreateRequestValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-619H8GI2"
+  }, {
+    "name" : "thread",
+    "value" : "18132@LAPTOP-619H8GI2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8d9919a8d7cd204.json",
+  "parameterValues" : [ ]
+}

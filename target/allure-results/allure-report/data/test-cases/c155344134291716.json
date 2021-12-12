@@ -1,0 +1,107 @@
+{
+  "uid" : "c155344134291716",
+  "name" : "Check courier authorization without filling in the required fields",
+  "fullName" : "praktikum.courier.CourierAuthorizationValidationTest.invalidRequestIsNotLogIn[1]",
+  "historyId" : "ca34dd862967f90e9557505340296a18",
+  "time" : {
+    "start" : 1639266509288,
+    "stop" : 1639266509402,
+    "duration" : 114
+  },
+  "description" : "Courier can not be log in with only login, with only password, with a non-existent username and password",
+  "descriptionHtml" : "<p>Courier can not be log in with only login, with only password, with a non-existent username and password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Courier can not be log in with only login, with only password, with a non-existent username and password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1639266509289,
+        "stop" : 1639266509343,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "praktikum.data.CourierCredentials@16eb93af"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "delete",
+      "time" : {
+        "start" : 1639266509352,
+        "stop" : 1639266509402,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courierId",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@6560f387"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.courier"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.courier.CourierAuthorizationValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidRequestIsNotLogIn[1]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.courier.CourierAuthorizationValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-619H8GI2"
+  }, {
+    "name" : "thread",
+    "value" : "21100@LAPTOP-619H8GI2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c155344134291716.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "3a55daa4fee20719",
+  "name" : "Check order can be created",
+  "fullName" : "praktikum.order.OrderCreateTest.orderCanBeCreated[2]",
+  "historyId" : "3f13073369166821b3f5076eaf51c481",
+  "time" : {
+    "start" : 1639271773316,
+    "stop" : 1639271773479,
+    "duration" : 163
+  },
+  "description" : "Creating order",
+  "descriptionHtml" : "<p>Creating order</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Creating order",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "create",
+      "time" : {
+        "start" : 1639271773316,
+        "stop" : 1639271773432,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "praktikum.data.Order@63c66980"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "cancel",
+      "time" : {
+        "start" : 1639271773432,
+        "stop" : 1639271773479,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "track",
+        "value" : "172355"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.order"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.order.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCanBeCreated[2]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.order.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-619H8GI2"
+  }, {
+    "name" : "thread",
+    "value" : "17112@LAPTOP-619H8GI2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a55daa4fee20719.json",
+  "parameterValues" : [ ]
+}

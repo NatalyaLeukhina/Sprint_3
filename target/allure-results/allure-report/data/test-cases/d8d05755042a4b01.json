@@ -1,0 +1,157 @@
+{
+  "uid" : "d8d05755042a4b01",
+  "name" : "Check courier authorization without filling in the required fields",
+  "fullName" : "praktikum.courier.CourierAuthorizationValidationTest.invalidRequestIsNotLogIn[2]",
+  "historyId" : "48490b14027c7df694941c39416b1ed5",
+  "time" : {
+    "start" : 1639274267113,
+    "stop" : 1639274267298,
+    "duration" : 185
+  },
+  "description" : "Courier can not be log in with only login, with only password, with a non-existent username and password",
+  "descriptionHtml" : "<p>Courier can not be log in with only login, with only password, with a non-existent username and password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Courier can not be log in with only login, with only password, with a non-existent username and password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1639274267113,
+        "stop" : 1639274267230,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "praktikum.data.CourierCredentials@3555d804"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "delete",
+      "time" : {
+        "start" : 1639274267245,
+        "stop" : 1639274267298,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courierId",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@65b7678a"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.courier"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.courier.CourierAuthorizationValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidRequestIsNotLogIn[2]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.courier.CourierAuthorizationValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-619H8GI2"
+  }, {
+    "name" : "thread",
+    "value" : "18132@LAPTOP-619H8GI2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "89502d0fb15aaa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639273414439,
+        "stop" : 1639273414624,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "8fdd6fa194f6fb96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639273026914,
+        "stop" : 1639273027047,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "5a159dcb68ab2d44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639271771914,
+        "stop" : 1639271772045,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "c1dac68babe9fed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639270895344,
+        "stop" : 1639270895525,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "ec7a9cd7257959a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639266509404,
+        "stop" : 1639266509535,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "b8cb56f9c2bec466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639264970028,
+        "stop" : 1639264970146,
+        "duration" : 118
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8d05755042a4b01.json",
+  "parameterValues" : [ ]
+}
