@@ -17,11 +17,11 @@ import static org.hamcrest.Matchers.equalTo;
 
 @RunWith(Parameterized.class)
     public class CourierAuthorizationValidationTest {
-        public Courier courier;
-        public CourierClient courierClient;
-        public int expectedStatus;
-        public String expectedMessage;
-        public ValidatableResponse courierId;
+    public Courier courier;
+    public CourierClient courierClient;
+    public int expectedStatus;
+    public String expectedMessage;
+    public ValidatableResponse courierId;
 
 
         public CourierAuthorizationValidationTest(Courier courier, int expectedStatus, String expectedMessage) {
@@ -50,7 +50,7 @@ import static org.hamcrest.Matchers.equalTo;
         @After
         public void tearDown() {
             CourierClient.delete(courierId);
-        }
+       }
 
         @Test
         @DisplayName("Check courier authorization without filling in the required fields")
@@ -58,10 +58,11 @@ import static org.hamcrest.Matchers.equalTo;
         public void  invalidRequestIsNotLogIn() {
 
             courierId = courierClient.login(CourierCredentials.from(courier));
-            String message = courierId.extract().path("message");
+
             int status = courierId.extract().statusCode();
 
             assertThat("Status code is incorrect", status, equalTo(expectedStatus));
+            String message = courierId.extract().path("message");
             assertThat("Message is incorrect", message, equalTo(expectedMessage));
 
         }

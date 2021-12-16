@@ -15,9 +15,9 @@ import static org.junit.Assert.assertFalse;
 
 public class ReturnOrderTest {
 
-    private OrderClient orderClient;
-    private List<Object> orders;
-    private int statusCode;
+    OrderClient orderClient;
+    List<Object> orders;
+    int statusCode;
 
     @Before
     public void setUp() {
@@ -36,6 +36,7 @@ public class ReturnOrderTest {
 
         assertThat("Status code is incorrect", statusCode, equalTo(200));
         assertFalse(orders.isEmpty());
+
 
     }
 }

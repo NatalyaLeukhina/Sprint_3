@@ -41,8 +41,10 @@ public class OrderClient extends RestAssuredClient {
         return given()
                 .spec(getBaseSpec())
                 .when()
-                .get(ORDER_PATH + "?courierId=")
-                .then();
+                .queryParam("courierId")
+                .get(ORDER_PATH)
+                .then()
+                .log().body();
 
 
 
